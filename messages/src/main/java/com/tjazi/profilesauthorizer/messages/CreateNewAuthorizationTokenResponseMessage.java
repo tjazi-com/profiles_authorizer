@@ -7,7 +7,7 @@ public class CreateNewAuthorizationTokenResponseMessage {
 
     private CreateNewAuthorizationTokenResponseStatus responseStatus;
 
-    private String authorizationStatus;
+    private String authorizationToken;
 
     public CreateNewAuthorizationTokenResponseStatus getResponseStatus() {
         return responseStatus;
@@ -17,11 +17,11 @@ public class CreateNewAuthorizationTokenResponseMessage {
         this.responseStatus = responseStatus;
     }
 
-    public String getAuthorizationStatus() {
-        return authorizationStatus;
+    public String getAuthorizationToken() {
+        return authorizationToken;
     }
 
-    public void setAuthorizationStatus(String authorizationStatus) {
-        this.authorizationStatus = authorizationStatus;
+    public void setAuthorizationToken(String authorizationToken) {
+        this.authorizationToken = authorizationToken;
     }
 }
