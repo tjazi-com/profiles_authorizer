@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c17b693-b865-4a43-b207-b1f922974922" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGeneratorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidatorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java" afterPath="$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../messages/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../messages/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../messages/src/main/java/com/tjazi/profilesauthorizer/messages/CreateNewAuthorizationTokenResponseMessage.java" afterPath="$PROJECT_DIR$/../messages/src/main/java/com/tjazi/profilesauthorizer/messages/CreateNewAuthorizationTokenResponseMessage.java" />
     </list>
     <ignored path="profiles-authorizer-core.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +32,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ProfilesAuthorizerTokenValidatorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenValidatorImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidatorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32327586">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -45,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+              <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -55,29 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfilesAuthorizerDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/dao/ProfilesAuthorizerDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenCreator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,53 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomTokenGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomTokenGeneratorImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGeneratorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenCreator_Tests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/unittests/TokenCreator_Tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -165,8 +122,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerRecordCreatorController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/dao/model/ProfiesAuthorizerDAOModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/dao/ProfilesAuthorizerDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreator.java" />
@@ -175,8 +130,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/dao/model/ProfilesAuthorizerDAOModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreatorImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/unittests/TokenCreator_Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidatorImpl.java" />
       </list>
     </option>
   </component>
@@ -247,6 +207,136 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles-authorizer-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unittests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles-authorizer-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles-authorizer-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles-authorizer-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles-authorizer-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -277,32 +367,6 @@
       <option name="PACKAGE_NAME" value="unittests" />
       <option name="MAIN_CLASS_NAME" value="unittests.ProfilesAuthorizerTokenCreatorController_Tests" />
       <option name="METHOD_NAME" value="createNewAuthorizationToken_ExceptionOnNullInput_Exception" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TokenCreator_Tests.createNewToken_ExceptionOnNullParameter_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="unittests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittests" />
-      <option name="MAIN_CLASS_NAME" value="unittests.TokenCreator_Tests" />
-      <option name="METHOD_NAME" value="createNewToken_ExceptionOnNullParameter_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -355,6 +419,58 @@
       <option name="PACKAGE_NAME" value="unittests" />
       <option name="MAIN_CLASS_NAME" value="unittests.TokenCreator_Tests" />
       <option name="METHOD_NAME" value="createNewToken_ExceptionOnNullProfileUuid_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProfilesAuthorizerTokenCreatorController_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" value="unittests.ProfilesAuthorizerTokenCreatorController_Tests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" value="unittests.ProfilesAuthorizerTokenCreatorController_Tests" />
+      <option name="METHOD_NAME" value="createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -819,19 +935,21 @@
       <patterns />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Run all unit test cases" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_ExceptionOnNullInput_Exception" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TokenCreator_Tests.createNewToken_ExceptionOnNullParameter_Test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TokenCreator_Tests.createNewToken_TokenGeneratesAndStored" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TokenCreator_Tests.createNewToken_ExceptionOnNullProfileUuid_Test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TokenCreator_Tests.createNewToken_TokenGeneratesAndStored" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TokenCreator_Tests.createNewToken_ExceptionOnNullProfileUuid_Test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenCreatorController_Tests" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TokenCreator_Tests.createNewToken_TokenGeneratesAndStored" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TokenCreator_Tests.createNewToken_ExceptionOnNullProfileUuid_Test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TokenCreator_Tests.createNewToken_ExceptionOnNullParameter_Test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_ExceptionOnNullInput_Exception" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenCreatorController_Tests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_ExceptionOnNullInput_Exception" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TokenCreator_Tests.createNewToken_TokenGeneratesAndStored" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TokenCreator_Tests.createNewToken_ExceptionOnNullProfileUuid_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -843,34 +961,34 @@
       <option name="number" value="Default" />
       <updated>1446631664140</updated>
       <workItem from="1446631665311" duration="5899000" />
-      <workItem from="1446643084462" duration="4323000" />
+      <workItem from="1446643084462" duration="7563000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="ProfilesAuthorizerTokenCreatorController_Tests - 2015.11.04 at 21h 34m 09s.xml">
+      <configuration name="ProfilesAuthorizerTokenCreatorController_Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProfilesAuthorizerTokenCreatorController_Tests_createNewAuthorizationToken_CallTokenCreator_PassResponse_Test - 2015.11.04 at 21h 48m 35s.xml">
+      <configuration name="ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProfilesAuthorizerTokenCreatorController_Tests_createNewAuthorizationToken_CallTokenCreator_PassResponse_Test - 2015.11.04 at 21h 49m 01s.xml">
+      <configuration name="ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProfilesAuthorizerTokenCreatorController_Tests_createNewAuthorizationToken_ExceptionOnNullInput_Exception - 2015.11.04 at 21h 28m 16s.xml">
+      <configuration name="ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_ExceptionOnNullInput_Exception" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProfilesAuthorizerTokenCreatorController_Tests_createNewAuthorizationToken_ExceptionOnNullInput_Exception - 2015.11.04 at 21h 28m 38s.xml">
+      <configuration name="ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_ExceptionOnNullInput_Exception" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="Run_all_unit_test_cases - 2015.11.04 at 21h 01m 13s.xml">
       <configuration name="Run all unit test cases" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TokenCreator_Tests_createNewToken_ExceptionOnNullParameter_Test - 2015.11.04 at 11h 54m 38s.xml">
-      <configuration name="TokenCreator_Tests.createNewToken_ExceptionOnNullParameter_Test" configurationId="JUnit" />
+    <history-entry file="Run_all_unit_test_cases - 2015.11.04 at 21h 49m 17s.xml">
+      <configuration name="Run all unit test cases" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TokenCreator_Tests_createNewToken_ExceptionOnNullProfileUuid_Test - 2015.11.04 at 20h 40m 02s.xml">
-      <configuration name="TokenCreator_Tests.createNewToken_ExceptionOnNullProfileUuid_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TokenCreator_Tests_createNewToken_ExceptionOnNullProfileUuid_Test - 2015.11.04 at 20h 41m 49s.xml">
-      <configuration name="TokenCreator_Tests.createNewToken_ExceptionOnNullProfileUuid_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TokenCreator_Tests_createNewToken_TokenGeneratesAndStored - 2015.11.04 at 15h 34m 36s.xml">
-      <configuration name="TokenCreator_Tests.createNewToken_TokenGeneratesAndStored" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TokenCreator_Tests_createNewToken_TokenGeneratesAndStored - 2015.11.04 at 20h 41m 58s.xml">
-      <configuration name="TokenCreator_Tests.createNewToken_TokenGeneratesAndStored" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TokenCreator_Tests_createNewToken_TokenGeneratesAndStored - 2015.11.04 at 20h 44m 27s.xml">
-      <configuration name="TokenCreator_Tests.createNewToken_TokenGeneratesAndStored" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TokenCreator_Tests_createNewToken_TokenGeneratesAndStored - 2015.11.04 at 20h 44m 51s.xml">
-      <configuration name="TokenCreator_Tests.createNewToken_TokenGeneratesAndStored" configurationId="JUnit" />
+    <history-entry file="Run_all_unit_test_cases - 2015.11.04 at 21h 51m 14s.xml">
+      <configuration name="Run all unit test cases" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TokenCreator_Tests_createNewToken_TokenGeneratesAndStored - 2015.11.04 at 20h 59m 07s.xml">
       <configuration name="TokenCreator_Tests.createNewToken_TokenGeneratesAndStored" configurationId="JUnit" />
@@ -880,11 +998,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10222000" />
+    <option name="totallyTimeSpent" value="13462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -893,10 +1011,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34120172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -974,9 +1092,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,9 +1118,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,18 +1127,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#869#870#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
+            <element signature="e#967#968#0" expanded="false" />
+            <element signature="e#1021#1022#0" expanded="false" />
+            <element signature="e#1066#1067#0" expanded="false" />
+            <element signature="e#1107#1108#0" expanded="false" />
+            <element signature="e#1175#1176#0" expanded="false" />
+            <element signature="e#1235#1236#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1059,29 +1173,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/dao/ProfilesAuthorizerDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,27 +1216,19 @@
         <state vertical-scroll-proportion="0.59574467">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#869#870#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
+            <element signature="e#967#968#0" expanded="false" />
+            <element signature="e#1021#1022#0" expanded="false" />
+            <element signature="e#1066#1067#0" expanded="false" />
+            <element signature="e#1107#1108#0" expanded="false" />
+            <element signature="e#1175#1176#0" expanded="false" />
+            <element signature="e#1235#1236#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,9 +1236,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,6 +1244,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32327586">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding />
         </state>
       </provider>
