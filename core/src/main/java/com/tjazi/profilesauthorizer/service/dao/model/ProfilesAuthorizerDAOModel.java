@@ -6,6 +6,8 @@ import java.util.UUID;
 /**
  * Created by Krzysztof Wasiak on 04/11/2015.
  */
+@Entity
+@Table(name = "ProfilesAuthorizerData")
 public class ProfilesAuthorizerDAOModel {
 
     @Id

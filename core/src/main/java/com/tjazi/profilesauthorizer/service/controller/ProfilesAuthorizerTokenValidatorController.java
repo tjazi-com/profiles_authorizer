@@ -6,6 +6,7 @@ import com.tjazi.profilesauthorizer.service.core.TokenValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,7 +26,7 @@ public class ProfilesAuthorizerTokenValidatorController {
 
     @RequestMapping(value = "/validatetoken", method = RequestMethod.POST)
     public ValidateAuthorizationTokenResponseMessage validateAuthorizationToken(
-            ValidateAuthorizationTokenRequestMessage requestMessage) {
+            @RequestBody ValidateAuthorizationTokenRequestMessage requestMessage) {
 
         if (requestMessage == null) {
             String errorMessage = "requestMessage is null";
