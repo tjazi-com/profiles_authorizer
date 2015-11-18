@@ -19,6 +19,9 @@ public class ProfilesAuthorizerClientImpl implements ProfilesAuthorizerClient {
 
     private final static Logger log = LoggerFactory.getLogger(ProfilesAuthorizerClientImpl.class);
 
+    private final static String TOKEN_CREATOR_PATH = "/profilesauthorizer/createtoken";
+    private final static String TOKEN_VALIDATOR_PATH = "/profilesauthorizer/validatetoken";
+
     public ProfilesAuthorizerClientImpl(RestClient restClient) {
 
         if (restClient == null) {
@@ -42,6 +45,7 @@ public class ProfilesAuthorizerClientImpl implements ProfilesAuthorizerClient {
         requestMessage.setProfileUuid(profileUuid);
 
         return (CreateNewAuthorizationTokenResponseMessage) restClient.sendRequestGetResponse(
+                TOKEN_CREATOR_PATH,
                 requestMessage, CreateNewAuthorizationTokenResponseMessage.class);
     }
 
@@ -61,6 +65,7 @@ public class ProfilesAuthorizerClientImpl implements ProfilesAuthorizerClient {
         requestMessage.setAuthorizationToken(authorizationToken);
 
         return (ValidateAuthorizationTokenResponseMessage) restClient.sendRequestGetResponse(
+                TOKEN_VALIDATOR_PATH,
                 requestMessage, ValidateAuthorizationTokenResponseMessage.class);
     }
 }

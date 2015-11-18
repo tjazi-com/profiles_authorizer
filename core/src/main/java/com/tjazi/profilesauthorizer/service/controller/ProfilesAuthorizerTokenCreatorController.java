@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping(value = "/tokenscreator")
+@RequestMapping(value = "/profilesauthorizer")
 public class ProfilesAuthorizerTokenCreatorController {
 
     private final static Logger log = LoggerFactory.getLogger(ProfilesAuthorizerTokenCreatorController.class);
