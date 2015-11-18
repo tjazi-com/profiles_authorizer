@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping(value = "/profilesauthorizer")
+@RequestMapping(value = "${profilesauthorizer.mvc.controller.root.path}")
 public class ProfilesAuthorizerTokenCreatorController {
 
     private final static Logger log = LoggerFactory.getLogger(ProfilesAuthorizerTokenCreatorController.class);
@@ -24,7 +24,7 @@ public class ProfilesAuthorizerTokenCreatorController {
     @Autowired
     private TokenCreator tokenCreator;
 
-    @RequestMapping(value = "/createtoken", method = RequestMethod.POST)
+    @RequestMapping(value = "${profilesauthorizer.mvc.controller.createtoken.path}", method = RequestMethod.POST)
     public CreateNewAuthorizationTokenResponseMessage createNewAuthorizationToken(
             @RequestBody CreateNewAuthorizationTokenRequestMessage createNewAuthorizationTokenMessage
     ) {
