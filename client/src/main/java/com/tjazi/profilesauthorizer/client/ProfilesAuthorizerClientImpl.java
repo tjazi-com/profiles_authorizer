@@ -1,12 +1,10 @@
 package com.tjazi.profilesauthorizer.client;
 
-import com.tjazi.lib.messaging.rest.RestClient;
-import com.tjazi.profilesauthorizer.messages.CreateNewAuthorizationTokenRequestMessage;
-import com.tjazi.profilesauthorizer.messages.CreateNewAuthorizationTokenResponseMessage;
-import com.tjazi.profilesauthorizer.messages.ValidateAuthorizationTokenRequestMessage;
-import com.tjazi.profilesauthorizer.messages.ValidateAuthorizationTokenResponseMessage;
+import com.tjazi.profilesauthorizer.messages.SaveAuthorizationTokenRequestMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.UUID;
 
@@ -15,42 +13,20 @@ import java.util.UUID;
  */
 public class ProfilesAuthorizerClientImpl implements ProfilesAuthorizerClient {
 
-    private RestClient restClient;
+    @Autowired
+    private RestTemplate restTemplate;
 
     private final static Logger log = LoggerFactory.getLogger(ProfilesAuthorizerClientImpl.class);
 
-    private final static String TOKEN_CREATOR_PATH = "/profilesauthorizer/createtoken";
-    private final static String TOKEN_VALIDATOR_PATH = "/profilesauthorizer/validatetoken";
+    private final static String PROFILES_AUTHORIZER_SERVICE_NAME = "profiles-authorizer-service-core";
 
-    public ProfilesAuthorizerClientImpl(RestClient restClient) {
-
-        if (restClient == null) {
-            String errorMessage = "restClient is null";
-            log.error(errorMessage);
-
-            throw new IllegalArgumentException(errorMessage);
-        }
-
-        this.restClient = restClient;
-    }
+    private final static String TOKEN_CREATOR_PATH = "http://" + PROFILES_AUTHORIZER_SERVICE_NAME + "/profilesauthorizer/savetoken";
 
     @Override
-    public CreateNewAuthorizationTokenResponseMessage createNewAuthorizationToken(UUID profileUuid) {
+    public boolean saveAuthorizationToken(UUID profileUuid, String authorizationToken) {
 
-        if (profileUuid == null) {
-            throw new IllegalArgumentException("profileUuid is null");
-        }
-
-        CreateNewAuthorizationTokenRequestMessage requestMessage = new CreateNewAuthorizationTokenRequestMessage();
-        requestMessage.setProfileUuid(profileUuid);
-
-        return (CreateNewAuthorizationTokenResponseMessage) restClient.sendRequestGetResponse(
-                TOKEN_CREATOR_PATH,
-                requestMessage, CreateNewAuthorizationTokenResponseMessage.class);
-    }
-
-    @Override
-    public ValidateAuthorizationTokenResponseMessage validateAuthorizationToken(UUID profileUuid, String authorizationToken) {
+        log.debug("[ProfilesAuthorizerClient] Saving authorization token '{}' for profileUUID: '{}'",
+                authorizationToken, profileUuid);
 
         if (profileUuid == null) {
             throw new IllegalArgumentException("profileUuid is null");
@@ -60,12 +36,12 @@ public class ProfilesAuthorizerClientImpl implements ProfilesAuthorizerClient {
             throw new IllegalArgumentException("authorizationToken is null or empty");
         }
 
-        ValidateAuthorizationTokenRequestMessage requestMessage = new ValidateAuthorizationTokenRequestMessage();
+        SaveAuthorizationTokenRequestMessage requestMessage = new SaveAuthorizationTokenRequestMessage();
         requestMessage.setProfileUuid(profileUuid);
         requestMessage.setAuthorizationToken(authorizationToken);
 
-        return (ValidateAuthorizationTokenResponseMessage) restClient.sendRequestGetResponse(
-                TOKEN_VALIDATOR_PATH,
-                requestMessage, ValidateAuthorizationTokenResponseMessage.class);
+        return  restTemplate.postForObject(
+                TOKEN_CREATOR_PATH,
+                requestMessage, boolean.class, (Object) null);
     }
 }

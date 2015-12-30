@@ -2,115 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c17b693-b865-4a43-b207-b1f922974922" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka2_client_shaded_2_0_0_rc_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_governator_governator_annotations_1_10_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_0_25_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_0_25_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_0_25_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_0_25_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_0_25_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_0_25_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_0_25_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_0_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_3_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_3_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_1_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_1_1_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_1_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_1_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_1_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_1_1_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_1_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_1_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_2_3_RELEASE.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_28.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_28.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_28.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_28.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_28.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_28.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_8_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_11_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_8_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_11_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_2_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_13.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_13.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_13.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_3_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_3_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_9_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_11_1_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_7_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_9_1_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_4_20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_4_20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_1_0_M3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenPersister.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenPersisterImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_tjazi_lib_messaging_rest_1_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGeneratorImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreatorImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidatorImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenValidatorController_Tests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/unittests/TokenValidator_Tests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../messages/src/main/java/com/tjazi/profilesauthorizer/messages/CreateNewAuthorizationTokenResponseMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../messages/src/main/java/com/tjazi/profilesauthorizer/messages/CreateNewAuthorizationTokenResponseStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../messages/src/main/java/com/tjazi/profilesauthorizer/messages/ValidateAuthorizationTokenResponseMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../messages/src/main/java/com/tjazi/profilesauthorizer/messages/ValidateAuthorizationTokenResponseStatus.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_5.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_5.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_5.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_20.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_28.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_20.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_28.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_20.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_28.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_20.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_28.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_2_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_11.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_13.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_11.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_13.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_11.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_13.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_11.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_0_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_0_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_0_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_0_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_0_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_0_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_0_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_aop_4_2_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_beans_4_2_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_context_4_2_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_core_4_2_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_expression_4_2_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_test_4_2_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_web_4_2_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_yaml_snakeyaml_1_14.xml" afterPath="$PROJECT_DIR$/../client/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenPersisterController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../messages/src/main/java/com/tjazi/profilesauthorizer/messages/CreateNewAuthorizationTokenRequestMessage.java" afterPath="$PROJECT_DIR$/../messages/src/main/java/com/tjazi/profilesauthorizer/messages/SaveAuthorizationTokenRequestMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client.iml" afterPath="$PROJECT_DIR$/../client/client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/pom.xml" afterPath="$PROJECT_DIR$/../client/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/src/main/java/com/tjazi/profilesauthorizer/client/ProfilesAuthorizerClient.java" afterPath="$PROJECT_DIR$/../client/src/main/java/com/tjazi/profilesauthorizer/client/ProfilesAuthorizerClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/src/main/java/com/tjazi/profilesauthorizer/client/ProfilesAuthorizerClientImpl.java" afterPath="$PROJECT_DIR$/../client/src/main/java/com/tjazi/profilesauthorizer/client/ProfilesAuthorizerClientImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core.iml" afterPath="$PROJECT_DIR$/core.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java" afterPath="$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/unittests/TokenCreator_Tests.java" afterPath="$PROJECT_DIR$/src/test/java/unittests/TokenCreator_Tests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../messages/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../messages/.idea/workspace.xml" />
     </list>
     <ignored path="profiles-authorizer-core.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -139,14 +115,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProfilesAuthorizerTokenCreatorController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java">
+      <file leaf-file-name="ProfilesAuthorizerTokenPersisterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenPersisterController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfilesAuthorizerTokenCreatorController_Tests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenCreator_Tests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unittests/TokenCreator_Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenPersister.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenPersister.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="99" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
+              <caret line="1" column="99" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -165,76 +185,39 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="TokenPersisterImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenPersisterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66136366">
-              <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TokenCreatorImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreatorImpl.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-2.3921568">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TokenValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenValidatorImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidatorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfilesAuthorizerTokenValidatorController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -269,20 +252,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGeneratorImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/unittests/TokenCreator_Tests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreatorImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/unittests/TokenValidator_Tests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidatorImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenValidatorController_Tests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/dao/model/ProfilesAuthorizerDAOModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenPersisterImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenPersister.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unittests/TokenCreator_Tests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenPersisterController.java" />
       </list>
     </option>
   </component>
@@ -333,7 +319,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -363,6 +348,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unittests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -540,6 +537,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
@@ -547,12 +545,12 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -591,33 +589,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Run all unit test cases">
-    <configuration default="false" name="TokenValidator_Tests.validateToken_UserProfileUuidNotFound_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="unittests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittests" />
-      <option name="MAIN_CLASS_NAME" value="unittests.TokenValidator_Tests" />
-      <option name="METHOD_NAME" value="validateToken_UserProfileUuidNotFound_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Run Profiles Authorizer Service">
     <configuration default="false" name="TokenValidator_Tests.validateToken_AuthorizationTokenNotFound_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -708,6 +680,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="unittests" />
       <option name="MAIN_CLASS_NAME" value="unittests.ProfilesAuthorizerTokenValidatorController_Tests" />
+      <option name="METHOD_NAME" value="createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" value="unittests.ProfilesAuthorizerTokenCreatorController_Tests" />
       <option name="METHOD_NAME" value="createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -869,6 +867,16 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -886,6 +894,26 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="core" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -1045,6 +1073,52 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="core" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="core" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="core" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1147,6 +1221,116 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="core" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="core" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="core" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="core" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="core" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="Run all unit test cases" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1184,19 +1368,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Run all unit test cases" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Run Profiles Authorizer Service" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TokenValidator_Tests.validateToken_UserProfileUuidNotFound_Test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TokenValidator_Tests.validateToken_AuthorizationTokenNotFound_Test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TokenValidator_Tests.validateToken_AuthorizationTokenFound_AuthorizationSuccess_Test" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenValidatorController_Tests.createNewAuthorizationToken_ExceptionOnNullInputException_Test" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenValidatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TokenValidator_Tests.validateToken_AuthorizationTokenNotFound_Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TokenValidator_Tests.validateToken_AuthorizationTokenFound_AuthorizationSuccess_Test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenValidatorController_Tests.createNewAuthorizationToken_ExceptionOnNullInputException_Test" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenValidatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenValidatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenValidatorController_Tests.createNewAuthorizationToken_ExceptionOnNullInputException_Test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TokenValidator_Tests.validateToken_AuthorizationTokenFound_AuthorizationSuccess_Test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TokenValidator_Tests.validateToken_AuthorizationTokenNotFound_Test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TokenValidator_Tests.validateToken_UserProfileUuidNotFound_Test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenValidatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ProfilesAuthorizerTokenValidatorController_Tests.createNewAuthorizationToken_ExceptionOnNullInputException_Test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TokenValidator_Tests.validateToken_AuthorizationTokenFound_AuthorizationSuccess_Test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TokenValidator_Tests.validateToken_AuthorizationTokenNotFound_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1215,25 +1399,17 @@
       <workItem from="1446992644351" duration="1446000" />
       <workItem from="1447748604226" duration="2023000" />
       <workItem from="1447794562272" duration="3886000" />
-      <workItem from="1450110830791" duration="655000" />
+      <workItem from="1450110830791" duration="1828000" />
+      <workItem from="1450159023111" duration="299000" />
+      <workItem from="1450159339292" duration="736000" />
+      <workItem from="1451215546937" duration="186000" />
+      <workItem from="1451460864562" duration="3786000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProfilesAuthorizerTokenValidatorController_Tests_createNewAuthorizationToken_ExceptionOnNullInputException_Test - 2015.11.05 at 10h 51m 00s.xml">
-      <configuration name="ProfilesAuthorizerTokenValidatorController_Tests.createNewAuthorizationToken_ExceptionOnNullInputException_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_unit_test_cases - 2015.11.05 at 10h 28m 10s.xml">
-      <configuration name="Run all unit test cases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_unit_test_cases - 2015.11.05 at 10h 28m 16s.xml">
-      <configuration name="Run all unit test cases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_unit_test_cases - 2015.11.05 at 10h 51m 32s.xml">
-      <configuration name="Run all unit test cases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_unit_test_cases - 2015.11.05 at 10h 51m 37s.xml">
-      <configuration name="Run all unit test cases" configurationId="JUnit" />
+    <history-entry file="ProfilesAuthorizerTokenCreatorController_Tests_createNewAuthorizationToken_CallTokenCreator_PassResponse_Test - 2015.12.30 at 08h 16m 19s.xml">
+      <configuration name="ProfilesAuthorizerTokenCreatorController_Tests.createNewAuthorizationToken_CallTokenCreator_PassResponse_Test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Run_all_unit_test_cases - 2015.11.17 at 08h 31m 11s.xml">
       <configuration name="Run all unit test cases" configurationId="JUnit" />
@@ -1244,6 +1420,18 @@
     <history-entry file="Run_all_unit_test_cases - 2015.11.18 at 16h 27m 31s.xml">
       <configuration name="Run all unit test cases" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Run_all_unit_test_cases - 2015.12.30 at 07h 37m 57s.xml">
+      <configuration name="Run all unit test cases" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_unit_test_cases - 2015.12.30 at 08h 16m 25s.xml">
+      <configuration name="Run all unit test cases" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_unit_test_cases - 2015.12.30 at 08h 18m 49s.xml">
+      <configuration name="Run all unit test cases" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_unit_test_cases - 2015.12.30 at 08h 38m 16s.xml">
+      <configuration name="Run all unit test cases" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TokenValidator_Tests_validateToken_AuthorizationTokenFound_AuthorizationSuccess_Test - 2015.11.05 at 10h 26m 41s.xml">
       <configuration name="TokenValidator_Tests.validateToken_AuthorizationTokenFound_AuthorizationSuccess_Test" configurationId="JUnit" />
     </history-entry>
@@ -1252,7 +1440,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29247000" />
+    <option name="totallyTimeSpent" value="35427000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1265,16 +1453,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32742155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34120172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1283,18 +1473,24 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39972714" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39972714" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33015007" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19456366" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1303,7 +1499,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenPersisterController.java</url>
           <line>29</line>
           <properties />
         </line-breakpoint>
@@ -1317,34 +1513,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1361,21 +1529,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenPersisterController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,16 +1543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenValidatorController_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1442,21 +1592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenValidatorController_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/dao/model/ProfilesAuthorizerDAOModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1484,21 +1619,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenValidatorController_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1537,9 +1657,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1552,7 +1670,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenPersisterController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
@@ -1573,14 +1691,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenPersister.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreatorImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenPersisterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="29" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="29" />
@@ -1616,27 +1734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/TokenCreator_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1644,41 +1741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/TokenValidator_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/RandomTokenGeneratorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenValidatorController_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/dao/ProfilesAuthorizerDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1704,6 +1770,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="99" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3921568">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenPersister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenPersisterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/ProfilesAuthorizerTokenCreatorController_Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unittests/TokenCreator_Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1712,57 +1840,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/tjazi/profilesauthorizer/messages/1.0-SNAPSHOT/messages-1.0-SNAPSHOT.jar!/com/tjazi/profilesauthorizer/messages/CreateNewAuthorizationTokenRequestMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20642202">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenCreatorController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenPersisterController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/controller/ProfilesAuthorizerTokenValidatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenCreatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/core/TokenValidatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1770,34 +1853,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="99" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tjazi/profilesauthorizer/service/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66136366">
-          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="53" />
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="56" />
           <folding />
         </state>
       </provider>

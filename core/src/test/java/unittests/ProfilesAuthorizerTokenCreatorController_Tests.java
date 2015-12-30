@@ -1,9 +1,8 @@
 package unittests;
 
-import com.tjazi.profilesauthorizer.messages.CreateNewAuthorizationTokenRequestMessage;
-import com.tjazi.profilesauthorizer.messages.CreateNewAuthorizationTokenResponseMessage;
-import com.tjazi.profilesauthorizer.service.controller.ProfilesAuthorizerTokenCreatorController;
-import com.tjazi.profilesauthorizer.service.core.TokenCreator;
+import com.tjazi.profilesauthorizer.messages.SaveAuthorizationTokenRequestMessage;
+import com.tjazi.profilesauthorizer.service.controller.ProfilesAuthorizerTokenPersisterController;
+import com.tjazi.profilesauthorizer.service.core.TokenPersister;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -13,8 +12,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import static org.mockito.Mockito.*;
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
 
 /**
  * Created by Krzysztof Wasiak on 04/11/2015.
@@ -27,10 +26,10 @@ public class ProfilesAuthorizerTokenCreatorController_Tests {
     public ExpectedException thrown = ExpectedException.none();
 
     @InjectMocks
-    public ProfilesAuthorizerTokenCreatorController controller;
+    public ProfilesAuthorizerTokenPersisterController controller;
 
     @Mock
-    public TokenCreator tokenCreator;
+    public TokenPersister tokenCreator;
 
     @Test
     public void createNewAuthorizationToken_ExceptionOnNullInputException_Test() {
@@ -43,23 +42,21 @@ public class ProfilesAuthorizerTokenCreatorController_Tests {
     @Test
     public void createNewAuthorizationToken_CallTokenCreator_PassResponse_Test() {
 
-        CreateNewAuthorizationTokenRequestMessage expectedRequestMessage = new CreateNewAuthorizationTokenRequestMessage();
-        CreateNewAuthorizationTokenResponseMessage expectedResponseMessage = new CreateNewAuthorizationTokenResponseMessage();
+        SaveAuthorizationTokenRequestMessage expectedRequestMessage = new SaveAuthorizationTokenRequestMessage();
 
-        when(tokenCreator.createNewToken(expectedRequestMessage))
-                .thenReturn(expectedResponseMessage);
+        when(tokenCreator.saveAuthorizationToken(expectedRequestMessage))
+                .thenReturn(true);
 
-        CreateNewAuthorizationTokenResponseMessage actualResponseMessage =
-                controller.createNewAuthorizationToken(expectedRequestMessage);
+        // main call
+        boolean actualResponse = controller.createNewAuthorizationToken(expectedRequestMessage);
 
-
-        ArgumentCaptor<CreateNewAuthorizationTokenRequestMessage> captor =
-                ArgumentCaptor.forClass(CreateNewAuthorizationTokenRequestMessage.class);
+        ArgumentCaptor<SaveAuthorizationTokenRequestMessage> captor =
+                ArgumentCaptor.forClass(SaveAuthorizationTokenRequestMessage.class);
 
         verify(tokenCreator, times(1))
-                .createNewToken(captor.capture());
+                .saveAuthorizationToken(captor.capture());
 
         assertEquals(expectedRequestMessage, captor.getValue());
-        assertEquals(expectedResponseMessage, actualResponseMessage);
+        assertEquals(true, actualResponse);
     }
 }

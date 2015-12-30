@@ -1,10 +1,7 @@
 package unittests;
 
-import com.tjazi.profilesauthorizer.messages.CreateNewAuthorizationTokenRequestMessage;
-import com.tjazi.profilesauthorizer.messages.CreateNewAuthorizationTokenResponseMessage;
-import com.tjazi.profilesauthorizer.messages.CreateNewAuthorizationTokenResponseStatus;
-import com.tjazi.profilesauthorizer.service.core.RandomTokenGenerator;
-import com.tjazi.profilesauthorizer.service.core.TokenCreatorImpl;
+import com.tjazi.profilesauthorizer.messages.SaveAuthorizationTokenRequestMessage;
+import com.tjazi.profilesauthorizer.service.core.TokenPersisterImpl;
 import com.tjazi.profilesauthorizer.service.dao.ProfilesAuthorizerDAO;
 import com.tjazi.profilesauthorizer.service.dao.model.ProfilesAuthorizerDAOModel;
 import org.junit.Rule;
@@ -18,7 +15,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 
 import java.util.UUID;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
 /**
@@ -32,49 +29,52 @@ public class TokenCreator_Tests {
     public ExpectedException thrown = ExpectedException.none();
 
     @InjectMocks
-    public TokenCreatorImpl tokenCreator;
+    public TokenPersisterImpl tokenCreator;
 
     @Mock
     public ProfilesAuthorizerDAO profilesAuthorizerDAO;
-
-    @Mock
-    public RandomTokenGenerator randomTokenGenerator;
 
     @Test
     public void createNewToken_ExceptionOnNullParameter_Test() {
         thrown.expect(IllegalArgumentException.class);
 
-        tokenCreator.createNewToken(null);
+        tokenCreator.saveAuthorizationToken(null);
     }
 
     @Test
     public void createNewToken_ExceptionOnNullProfileUuid_Test() {
         thrown.expect(IllegalArgumentException.class);
 
-        CreateNewAuthorizationTokenRequestMessage requestMessage = new CreateNewAuthorizationTokenRequestMessage();
+        SaveAuthorizationTokenRequestMessage requestMessage = new SaveAuthorizationTokenRequestMessage();
         requestMessage.setProfileUuid(null);
+        requestMessage.setAuthorizationToken("Sample authorization token");
 
-        tokenCreator.createNewToken(requestMessage);
+        tokenCreator.saveAuthorizationToken(requestMessage);
+    }
+
+    @Test
+    public void createNewToken_ExceptionOnNullEmptyAuthorizationToken_Test() {
+        thrown.expect(IllegalArgumentException.class);
+
+        SaveAuthorizationTokenRequestMessage requestMessage = new SaveAuthorizationTokenRequestMessage();
+        requestMessage.setProfileUuid(UUID.randomUUID());
+        requestMessage.setAuthorizationToken("");
+
+        tokenCreator.saveAuthorizationToken(requestMessage);
     }
 
     @Test
     public void createNewToken_TokenGeneratesAndStored() {
 
         final String expectedAuthorizationToken = UUID.randomUUID().toString();
-        final CreateNewAuthorizationTokenResponseStatus expectedReturnStatus =
-                CreateNewAuthorizationTokenResponseStatus.OK;
-
         final UUID expectedProfileUuid = UUID.randomUUID();
 
-        when(randomTokenGenerator.generateAuthorizationToken())
-                .thenReturn(expectedAuthorizationToken);
-
-
-        CreateNewAuthorizationTokenRequestMessage requestMessage = new CreateNewAuthorizationTokenRequestMessage();
+        SaveAuthorizationTokenRequestMessage requestMessage = new SaveAuthorizationTokenRequestMessage();
         requestMessage.setProfileUuid(expectedProfileUuid);
+        requestMessage.setAuthorizationToken(expectedAuthorizationToken);
 
         // main call
-        CreateNewAuthorizationTokenResponseMessage createTokenResult = tokenCreator.createNewToken(requestMessage);
+        boolean saveTokenResult = tokenCreator.saveAuthorizationToken(requestMessage);
 
         // validation / assertion
 
@@ -89,7 +89,6 @@ public class TokenCreator_Tests {
         assertEquals(expectedAuthorizationToken, capturedArgument.getAuthorizationToken());
         assertEquals(expectedProfileUuid, capturedArgument.getUserProfileUuid());
 
-        assertEquals(expectedReturnStatus, createTokenResult.getResponseStatus());
-        assertEquals(expectedAuthorizationToken, createTokenResult.getAuthorizationToken());
+        assertEquals(true, saveTokenResult);
     }
 }
